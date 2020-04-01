@@ -43,4 +43,4 @@ class Virus extends Model {
 
 }
 
-module.exports = Superhero;
+module.exports = CoronaStates;
