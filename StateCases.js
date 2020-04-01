@@ -12,7 +12,7 @@ let arrayOfStates = getStats('corona.json');
 
 async function importCases(cases) {
   return await CoronaStates.query().insertGraph(cases.map((corona) => {
-    console.log(hero.powerstats.intelligence);
+
     return {
         Date:corona.name,
         state: corona.state,
