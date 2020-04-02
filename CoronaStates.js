@@ -37,10 +37,6 @@ class Virus extends Model {
     }
   }
 
-  static get relationMappings() {
-    // Code here to establish relations with other classes
-  }
 
-}
 
 module.exports = CoronaStates;
